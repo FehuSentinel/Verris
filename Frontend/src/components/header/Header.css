@@ -1,0 +1,65 @@
+/* 🎨 Paleta de colores basada en el logo */
+:root {
+    --primary-color: #3BAF91;   /* Verde Esmeralda */
+    --secondary-color: #1B4F56; /* Azul Verdoso Oscuro */
+    --accent-color: #8DF29E;    /* Verde Neón */
+    --background-color: #f8f9fa;
+    --border-color: #3BAF91;
+    --text-color: #000000;
+}
+
+/* 🏷️ Estilo de la Navbar */
+.custom-navbar {
+    background-color: var(--background-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 📌 Estilo del Título */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+/* 📌 Botón de menú Offcanvas */
+.menu-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid var(--border-color);
+}
+
+/* 🔲 Estilo de TODOS los botones dentro del Offcanvas */
+.offcanvas-body .btn {
+    display: block;
+    width: 100%;
+    border: 2px solid var(--border-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🖱️ Efecto Hover para todos los botones */
+.offcanvas-body .btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* 🛑 Botón de cerrar sesión con estilo uniforme */
+.text-danger {
+    border-color: red !important;
+    color: red !important;
+}
+
+.text-danger:hover {
+    background-color: red !important;
+    color: white !important;
+}
