@@ -1,2 +1,11 @@
 Backend
-README.md
+Readme.md
+config
+controllers
+helpers
+models
+node_modules
+routes
+schemas
+.env
+app.js
